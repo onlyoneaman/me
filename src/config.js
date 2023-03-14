@@ -7,8 +7,12 @@ module.exports = {
       url: 'https://github.com/onlyoneaman',
     },
     {
+      name: 'Medium',
+      url: 'https://onlyoneaman.medium.com',
+    },
+    {
       name: 'Instagram',
-      url: 'https://www.instagram.com/onlyoneaman',
+      url: 'https://www.instagram.com/_a_gryffindor',
     },
     {
       name: 'Twitter',

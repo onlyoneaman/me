@@ -12,7 +12,7 @@
 
 ### Credits
 
-Thanks to [Brittany Chiang](https://brittanychiang.com) for the awesome code.
+Thanks to <a href="https://brittanychiang.com" target="_blank">Brittany Chiang</a> for the awesome code.
 
 [//]: # '<p align="center">'
 [//]: # '  <a href="https://app.netlify.com/sites/brittanychiang/deploys" target="_blank">'
