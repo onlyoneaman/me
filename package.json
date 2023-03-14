@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
+  "name": "onlyoneaman",
+  "description": "Personal Website - onlyoneaman",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": "Aman Kumar <2000.aman.sinha@gmail.com",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/onlyoneaman/me"
   },
   "keywords": [
     "gatsby"
