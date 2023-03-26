@@ -142,14 +142,20 @@ const About = () => {
 
             <p>
               My main focus these days is building E-commerce problems at{' '}
-              <a href="https://engagebud.com/">Engagebud</a>
+              <a href="https://engagebud.com/" target={'_blank'} rel="noreferrer">
+                Engagebud
+              </a>{' '}
               for global clients.
             </p>
 
             <p>
               I often write about Frontend Dev, React, Backend, Rails, DBs, Scaling and sometimes
-              publish them too at
-              <a href="https://onlyoneaman.medium.com"> my blog</a>.
+              publish them too at&nbsp;
+              <a href="https://onlyoneaman.medium.com" target={'_blank'} rel="noreferrer">
+                {' '}
+                my blog
+              </a>
+              .
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
