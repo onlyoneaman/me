@@ -162,7 +162,7 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
+                {/*<th className="hide-on-mobile">Made at</th>*/}
                 <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
               </tr>
@@ -170,25 +170,16 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, external, ios, android, title, tech } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
 
                       <td className="title">{title}</td>
 
-                      <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td>
+                      {/*<td className="company hide-on-mobile">*/}
+                      {/*  {company ? <span>{company}</span> : <span>—</span>}*/}
+                      {/*</td>*/}
 
                       <td className="tech hide-on-mobile">
                         {tech?.length > 0 &&

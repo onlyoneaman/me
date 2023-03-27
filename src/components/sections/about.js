@@ -141,7 +141,7 @@ const About = () => {
             </p>
 
             <p>
-              My main focus these days is building E-commerce problems at{' '}
+              My main focus these days is building exceptional E-commerce experience at{' '}
               <a href="https://engagebud.com/" target={'_blank'} rel="noreferrer">
                 Engagebud
               </a>{' '}

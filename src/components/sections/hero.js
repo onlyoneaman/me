@@ -65,12 +65,12 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building exceptional digital experiences. Currently,
-        I’m focused on building E-Commerce Solutions at{' '}
+        I’m a engineer specializing in building exceptional digital experiences. Currently, I’m
+        focused on enhancing E-Commerce experience at{' '}
         <a href="https://engagebud.com/" target="_blank" rel="noreferrer">
           Engagebud
         </a>
-        .
+        . I am also building different products using OpenAI to solve real world problems.
       </p>
     </>
   );
