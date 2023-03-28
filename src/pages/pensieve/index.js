@@ -224,7 +224,7 @@ export const pageQuery = graphql`
             description
             slug
             date
-            canonical
+            canonical_url
             tags
             draft
           }

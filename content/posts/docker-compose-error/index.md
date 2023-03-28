@@ -4,7 +4,7 @@ description: docker-compose version discrepancies
 date: '2019-12-13'
 draft: true
 slug: '/pensieve/docker-error'
-canonical:
+canonical_url:
 tags:
   - WordPress
   - Docker

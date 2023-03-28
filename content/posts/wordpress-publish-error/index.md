@@ -4,7 +4,7 @@ description: Trying to create a simple post in WordPress
 date: 2019-12-03
 draft: true
 slug: /pensieve/wordpress-publish-error
-canonical:
+canonical_url:
 tags:
   - WordPress
 ---
