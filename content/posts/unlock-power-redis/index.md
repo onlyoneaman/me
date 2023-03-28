@@ -3,7 +3,7 @@ title: 'Unlocking the Power of Redis: Storing Any Object as Cache in Ruby on Rai
 description: 'Unlock the full potential of Redis for storing any object as cache in Ruby on Rails. Learn how Redis works as a cache, how we can store classes and prevent threads fighting over single Redis connection.'
 date: '2023-03-21'
 slug: /pensieve/unlocking-the-power-of-redis-storing-any-object-as-cache-in-ruby-on-rails
-canonical: 'https://onlyoneaman.medium.com/unlocking-the-power-of-redis-storing-any-object-as-cache-in-ruby-on-rails-518536e2182'
+canonical:
 tags:
   - Ruby on Rails
   - Ruby

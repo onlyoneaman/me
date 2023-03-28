@@ -6,7 +6,7 @@ draft: true
 slug: /pensieve/markdown-playground
 tags:
   - Testing
-canonical:
+canonical: 'https://onlyoneaman.com'
 ---
 
 ![Image Alt](./image.jpg)
