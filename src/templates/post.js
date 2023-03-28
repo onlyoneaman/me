@@ -52,11 +52,14 @@ const StyledPostContent = styled.div`
 
 const PostTemplate = ({ data, location }) => {
   const { frontmatter, html } = data.markdownRemark;
-  const { title, date, tags } = frontmatter;
+  const { title, date, tags, canonical } = frontmatter;
 
   return (
     <Layout location={location}>
-      <Helmet title={title} />
+      <Helmet>
+        <title>{title}</title>
+        {canonical && <link rel="canonical" href={canonical} />}
+      </Helmet>
 
       <StyledPostContainer>
         <span className="breadcrumb">
@@ -108,6 +111,7 @@ export const pageQuery = graphql`
         date
         slug
         tags
+        canonical
       }
     }
   }

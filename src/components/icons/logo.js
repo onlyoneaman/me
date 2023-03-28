@@ -5,11 +5,11 @@ const IconLogo = () => (
     <title>Logo</title>
     <g transform="translate(-8.000000, -2.000000)">
       <g transform="translate(11.000000, 5.000000)">
-        <g transform="scale(0.6), translate(28, 15)">
+        <g transform="scale(0.6), translate(28, 18)">
           <path
             fill="transparent"
             stroke="currentColor"
-            strokeWidth={'6'}
+            strokeWidth={'8'}
             d="M5,90
            l30,-80 30,80
            M20,50

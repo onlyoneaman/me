@@ -4,6 +4,7 @@ description: Clickable cards with multiple child links
 date: 2021-04-21
 draft: false
 slug: /pensieve/clickable-cards
+canonical: https://bchiang7.github.io/v4/
 tags:
   - Accessibility
   - CSS
