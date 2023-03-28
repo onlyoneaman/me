@@ -5,6 +5,7 @@ date: 2021-04-21
 draft: false
 slug: /pensieve/dark-mode-toggle
 canonical:
+draft: true
 tags:
   - Theming
   - Dark Mode
