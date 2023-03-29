@@ -74,9 +74,9 @@ const Footer = () => {
   });
 
   useEffect(() => {
-    // if (process.env.NODE_ENV !== 'production') {
-    //   return;
-    // }
+    if (process.env.NODE_ENV !== 'production') {
+      return;
+    }
     fetch('https://api.github.com/repos/onlyoneaman/me')
       .then(response => response.json())
       .then(json => {
