@@ -74,9 +74,9 @@ const Footer = () => {
   });
 
   useEffect(() => {
-    if (process.env.NODE_ENV !== 'production') {
-      return;
-    }
+    // if (process.env.NODE_ENV !== 'production') {
+    //   return;
+    // }
     fetch('https://api.github.com/repos/onlyoneaman/me')
       .then(response => response.json())
       .then(json => {
@@ -108,7 +108,7 @@ const Footer = () => {
         <a href="https://github.com/onlyoneaman/me">
           <div>Designed &amp; Built by Aman Kumar</div>
 
-          {githubInfo.stars && githubInfo.stars > 0 && githubInfo.forks && (
+          {githubInfo?.stars > 0 && githubInfo?.forks > 0 && (
             <div className="github-stats">
               <span>
                 <Icon name="Star" />
