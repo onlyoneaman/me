@@ -119,6 +119,7 @@ const StyledPost = styled.li`
     font-family: var(--font-mono);
     font-size: var(--fz-xxs);
     text-transform: uppercase;
+    padding-right: 8px;
   }
 
   ul.post__tags {

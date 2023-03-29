@@ -42,7 +42,7 @@ module.exports = {
       url: '/#projects',
     },
     {
-      name: 'Pensieve',
+      name: 'Blogs',
       url: '/pensieve',
     },
     {
