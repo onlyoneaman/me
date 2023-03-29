@@ -149,10 +149,20 @@ module.exports = {
         ],
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: 'UA-178422717-5',
+    //   },
+    // },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: 'UA-178422717-5',
+        trackingIds: ['G-SNDCBFFZQF'],
+        pluginConfig: {
+          head: true,
+          origin: 'https://onlyoneaman.com',
+        },
       },
     },
   ],
