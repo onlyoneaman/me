@@ -135,17 +135,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Aman and I enjoy creating things that live on the internet. My
-              Interest in Software Engineering started back in 2018 due to it's ability to solve
-              moder world's problems with it, and I started my quest of solving problems with code.
+              I love helping people automate their work and focus on what matters most to them.
+              <br />
             </p>
 
             <p>
-              My main focus these days is building exceptional E-commerce experience at{' '}
-              <a href="https://engagebud.com/" target={'_blank'} rel="noreferrer">
-                Engagebud
+              Currently, At{' '}
+              <a href="https://dreamboat.ai/" target={'_blank'} rel="noreferrer">
+                Dreamboat.ai
               </a>{' '}
-              for global clients.
+              I am working on building product that help them doing these boring tasks with AI.
             </p>
 
             <p>
@@ -153,7 +152,7 @@ const About = () => {
               publish them too at&nbsp;
               <a href="https://onlyoneaman.medium.com" target={'_blank'} rel="noreferrer">
                 {' '}
-                my blog
+                my blogs
               </a>
               .
             </p>

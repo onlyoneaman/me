@@ -61,16 +61,17 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Aman Kumar.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 className="big-heading">Automating Boring tasks with AI.</h3>;
   const four = (
     <>
       <p>
-        I’m a engineer specializing in building exceptional digital experiences. Currently, I’m
-        focused on enhancing E-Commerce experience at{' '}
-        <a href="https://engagebud.com/" target="_blank" rel="noreferrer">
-          Engagebud
-        </a>
-        . I am also building different products using OpenAI to solve real world problems.
+        An Engineer turned Entrepreneur, love solving real world problems. I believe no one should
+        do boring and repetitive tasks.
+        <br />
+        With the power of AI, I am building products that can help people automate their boring
+        tasks. So that they can focus on more important things.
+        <br />
+        Currently Leading <a href={'https://dreamboat.ai'}>Dreamboat AI</a>.
       </p>
     </>
   );
