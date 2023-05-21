@@ -1,5 +1,5 @@
 ---
-date: '6'
+date: '9'
 title: 'Crux Dashboard Launcher'
 github: 'https://github.com/onlyoneaman/crux-dash-launcher'
 external: 'https://onlyoneaman.github.io/crux-dash-launcher/'
