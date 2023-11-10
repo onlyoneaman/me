@@ -72,6 +72,8 @@ const Hero = () => {
         tasks. So that they can focus on more important things.
         <br />
         Currently Leading <a href={'https://dreamboat.ai'}>Dreamboat AI</a>.
+        <br />
+        Headover to <a href={'https://amankumar.ai'}>amankumar.ai</a> to know more about me.
       </p>
     </>
   );
