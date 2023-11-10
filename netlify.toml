@@ -1,2 +1,2 @@
 [build]
-  command = "npm install --force && CI= npm run build"
+  command = "CI= npm run build"
