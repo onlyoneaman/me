@@ -65,13 +65,12 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        An Engineer turned Entrepreneur, love solving real world problems. I believe no one should
-        do boring and repetitive tasks.
+        A Full-Stack Dev, AI Enthusiast, who loves solving real world problems.
         <br />
         With the power of AI, I am building products that can help people automate their boring
         tasks. So that they can focus on more important things.
         <br />
-        Currently Leading <a href={'https://dreamboat.ai'}>Dreamboat AI</a>.
+        Currently helping companies building MVPs / Apps.
         <br />
         Headover to <a href={'https://amankumar.ai'}>amankumar.ai</a> to know more about me.
       </p>
